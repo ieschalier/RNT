@@ -1,0 +1,54 @@
+{
+  "name": "@rnt/flip",
+  "version": "0.0.14",
+  "description": "Flip transition for react-navigation",
+  "main": "dist/bundle.js",
+  "private": false,
+  "author": "Igor ESCHALIER",
+  "license": "MIT",
+  "files": [
+    "package.json",
+    "dist/",
+    "yarn.lock"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ieschalier/RNT.git"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.2",
+    "babel-loader": "^7.1.3",
+    "eslint": "^4.18.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0",
+    "expo": "^25.0.0",
+    "jest-expo": "25.0.0",
+    "react-native-safe-area-view": "^0.7.0",
+    "react-native-scripts": "1.11.1",
+    "react-test-renderer": "16.2.0",
+    "webpack": "^3.2.0"
+  },
+  "scripts": {
+    "start": "react-native-scripts start",
+    "build": "webpack --config webpack.bundle.js",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "node node_modules/jest/bin/jest.js"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "peerDependencies": {
+    "prop-types": "^15.6.1",
+    "react": "16.2.0",
+    "react-native": "0.52.0",
+    "react-navigation": "^1.2.1"
+  },
+  "bugs": {
+    "url": "https://github.com/ieschalier/RNT/issues"
+  },
+  "homepage": "https://github.com/ieschalier/RNT#readme"
+}
